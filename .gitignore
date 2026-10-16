@@ -3,6 +3,7 @@
 venv/
 ENV/
 env/
+.idea
 
 # Caché de Python
 __pycache__/
