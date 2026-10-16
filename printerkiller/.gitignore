@@ -1,0 +1,27 @@
+# Entorno virtual de Python
+.venv/
+venv/
+ENV/
+env/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Carpeta temporal de subidas de la aplicación
+print_uploads/
+
+# Archivos de PyInstaller (por si los generas más adelante)
+build/
+dist/
+*.spec
+
+# Archivos del sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+.DS_Store
