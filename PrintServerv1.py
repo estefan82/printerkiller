@@ -49,7 +49,7 @@ def clear_history():
   log_message("[INFO] Historial de archivos limpiado.")
 
 def print_page_image(pil_img, printer_name):
-  hDC = win32ui.CreateDC()
+  hDC = win32ui.CreateDC() # noqa
   hDC.CreatePrinterDC(printer_name)
 
   printable_width = hDC.GetDeviceCaps(8)  # HORZRES
