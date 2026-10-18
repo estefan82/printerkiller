@@ -6,7 +6,6 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".pdf", ".docx"}
 
-
 def print_file(file_path, filename):
   """Envía el archivo a la impresora predeterminada en Windows usando el comando
 
