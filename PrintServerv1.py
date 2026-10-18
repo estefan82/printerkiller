@@ -201,7 +201,7 @@ def main_page():
 
 if __name__ == "__main__":
   try:
-    ui.run(port=8080, host="0.0.0.0", title="Print Server V1.0", reload=False)
+    ui.run(port=8082, host="0.0.0.0", title="Print Server V1.0", reload=False)
   except (KeyboardInterrupt, SystemExit):
     print("\n[INFO] Servidor detenido correctamente.")
   except Exception as e:
