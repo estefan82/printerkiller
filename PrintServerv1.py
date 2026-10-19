@@ -18,7 +18,6 @@ log_box = None
 file_list_container = None
 uploaded_files_history = []
 
-
 def log_message(msg):
   """Envía un mensaje tanto a la consola como a la caja de logs de la UI"""
   print(msg)
